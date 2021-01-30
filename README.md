@@ -21,7 +21,10 @@ sentences를 입력 받아 구성하는 단어가 긍정인지, 중립인지, �
 
 ## ✨ Day 2
 <b>2.1 Encodding</b><br><br>
+첫번째로 데이터를 표현하는 방법에 대하여 학습하였다. Text data의 경우 입력받은 문장을 중복을 제거하여 Tokenizer 한 후 각 Token에 대하여 index를 부여한다. 이후 Encoding을 진행한다. 이때 여러가지의 Encoding 중 One hot encoding에 대한 실습을 진행하였다.<br>
+One hot encoding은 위에서 받은 Token의 집합, 즉 단어의 집합을 벡터 차원의 크기로 만들고 원하는 한개의 단어 인덱스에만 1, 나머지 단어들에는 0을 부여하는 벡터 표현 방식이다.<br> 실습 내용은 에서 확인할 수 있다.
 <b>2.2 Tokenizer</b><br><br>
 <b>📝 2.3 Tokenizer</b><br><br>
+my_corpus라는 새로운
 
 ## ✨ Day 3
