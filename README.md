@@ -33,6 +33,7 @@ Tokenize란 문장을 일정한 규칙을 통해 토큰 단위로 나누는 과�
 위의 내용에 대한 실습은 [2.2 Tokenizer](https://github.com/bbjoite09/NLP/blob/main/Practice/2.2%20tokenizer.ipynb) 에서 확인할 수 있다.
 
 <b>📝 2.3 Tokenizer</b><br><br>
-my_corpus라는 새로운
+my_corpus라는 새로운 말뭉치로 Tokenizer 실습을 진행하였다. 해당 실습에 대한 내용은 [2.3 tokenizer](https://github.com/bbjoite09/NLP/blob/main/Practice/2.3%20tokenizer.ipynb) 에서 확인할 수 있다.
+
 
 ## ✨ Day 3
