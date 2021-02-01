@@ -39,3 +39,5 @@ my_corpus라는 새로운 말뭉치로 Tokenizer 실습을 진행하였다. 해�
 
 
 ## ✨ Day 3
+<b>3.1 matrix equation</b><br><br>
+행렬의 기본 연산에 대하여 학습하였다.<br> 해당 실습에 대한 내용은 [3.1 matrix equation](https://github.com/bbjoite09/NLP/blob/main/Practice/3.1%20matrix%20equation.ipynb) 에서 확인할 수 있다.
