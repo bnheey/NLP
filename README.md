@@ -32,7 +32,7 @@ Tokenize란 문장을 일정한 규칙을 통해 토큰 단위로 나누는 과�
 - Char Tokenizer : 글자 단위로 단어를 Tokenize 한다. 이는 작은 수의 vocabulary로 모든 문장을 표현 가능하도록 하나, 각 토큰들은 단어의 고유 의미를 표현하지 못한다는 단점이 있다.<br>
 - Word Tokenizer : 띄어쓰기 단위로 단어를 Tokenize한다. 이는 구현이 쉬우나 어미 변화에 따른 유사 Token이 많아지고, 이 단어들이 비슷한 벡터를 가지지 않을 수 있다는 단점이 있다. 또한 이는 데이터가 많아질 수 록 vocaburlary 개수가 증가한다는 단점이 있다.<br>
 - BPE(Byte Pair Encoding) : 빈도수를 기반으로 계산하여 subword 단위로 단어를 Tokenize한다. 이는 현재 가장 많이 사용되는 Tokenize 방식으로, subwords단위로 tokenize하기 때문에 미등록 단어를 최소화한다는 장점이 있다. 한편 vocab 수를 작게하였을 때 subwords가 많이 생겨 token 수가 많아진다는 단점이 있다.<br><br>
-위의 내용에 대한 실습은 [2.2 Tokenizer](https://github.com/bbjoite09/NLP/blob/main/Practice/2.2%20tokenizer.ipynb) 에서 확인할 수 있다.<br>
+위의 내용에 대한 실습은 [2.2 Tokenizer](https://github.com/bbjoite09/NLP/blob/main/Practice/2.2%20tokenizer.ipynb) 에서 확인할 수 있다.<br><br>
 
 <b>📝 2.3 Tokenizer</b><br><br>
 my_corpus라는 새로운 말뭉치로 Tokenizer 실습을 진행하였다. 해당 실습에 대한 내용은 [2.3 tokenizer](https://github.com/bbjoite09/NLP/blob/main/Practice/2.3%20tokenizer.ipynb) 에서 확인할 수 있다.
@@ -40,7 +40,7 @@ my_corpus라는 새로운 말뭉치로 Tokenizer 실습을 진행하였다. 해�
 
 ## ✨ Day 3
 <b>3.1 matrix equation</b><br><br>
-행렬의 기본 연산에 대하여 학습하였다.<br> 해당 실습에 대한 내용은 [3.1 matrix equation](https://github.com/bbjoite09/NLP/blob/main/Practice/3.1%20matrix%20equation.ipynb) 에서 확인할 수 있다. <br>
+행렬의 기본 연산에 대하여 학습하였다.<br> 해당 실습에 대한 내용은 [3.1 matrix equation](https://github.com/bbjoite09/NLP/blob/main/Practice/3.1%20matrix%20equation.ipynb) 에서 확인할 수 있다. <br><br>
 
 <b>3.2 word embedding</b><br><br>
 Word Representation에 대하여 학습하였다.<br><br>
