@@ -1,6 +1,6 @@
 <h1 align="center"> 🙌🏻 자연어 처리(NLP) 🙌🏻 </h1>
 🌱 2021.01.23 - 2021.02.10 <br>
-🌱 Natural Language Processing_HUFS_AI_CAMP
+🌱 Natural Language Processing_HUFS_AI_CAMP<br>
 
 ## ✨ Day 0
 
@@ -18,7 +18,7 @@ sentences를 입력 받아 구성하는 단어가 긍정인지, 중립인지, �
 <b>📝 1.2 문장 분류 프로젝트</b><br><br>
 위의 단어 분류 프로젝트와 비슷하게 입력받은 문장이 긍정인지, 부정인지 분류하는 프로젝트를 만들어 본다.<br>
 위와 유사하게, 단어의 긍정은 1, 부정은 0로 표시한다. "나는 오늘 기분이 좋아" 라는 문장의 경우 <b>1 : 긍정</b>을 출력하도록 한다. 실습 내용은 [1.2 simple sentence project](https://github.com/bbjoite09/NLP/blob/main/Practice/1.2%20simple%20sentence%20project.ipynb) 에서 확인할 수 있다.
-
+<br>
 ## ✨ Day 2
 <b>2.1 Encodding</b><br><br>
 첫번째로 데이터를 표현하는 방법에 대하여 학습하였다.<br>
@@ -37,7 +37,7 @@ Tokenize란 문장을 일정한 규칙을 통해 토큰 단위로 나누는 과�
 <b>📝 2.3 Tokenizer</b><br><br>
 my_corpus라는 새로운 말뭉치로 Tokenizer 실습을 진행하였다. 해당 실습에 대한 내용은 [2.3 tokenizer](https://github.com/bbjoite09/NLP/blob/main/Practice/2.3%20tokenizer.ipynb) 에서 확인할 수 있다.
 
-
+<br>
 ## ✨ Day 3
 <b>3.1 matrix equation</b><br><br>
 행렬의 기본 연산에 대하여 학습하였다.<br> 해당 실습에 대한 내용은 [3.1 matrix equation](https://github.com/bbjoite09/NLP/blob/main/Practice/3.1%20matrix%20equation.ipynb) 에서 확인할 수 있다. <br><br>
