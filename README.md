@@ -47,7 +47,7 @@ my_corpus라는 새로운 말뭉치로 Tokenizer 실습을 진행하였다. 해�
 - Distributional semantics(ex. Word2Vec): outer word들이 center word를 표현하는 방식을 말한다. 즉, 단어 그 자체의 의미보다는 문맥의 흐름을 통하여 단어의 의미를 형성한다. 단어의 의미를 여러 차원에 분산하여 표현하여 단어간 유사도를 계산할 수 있다.<br>
 - 이외에도 통계기반 기법, 동시발생 행렬 등 단어를 표현하는 다양한 방법이 존재한다.<br><br>
 
-<b>Word2Vec</b><br>
+<b>Word2Vec</b><br><br>
 어떤 text data에 대하여 모든 단어는 벡터로 표현된다. 이 단어 벡터들은 유사도를 반영한 값을 가지고 있으며, 어떤 시점 t에는 중심 단어 c와 주변 단어 o가 있다. c에 대하여 o가 나타날 확률을 계산할 때 이 벡터의 유사성을 이용한다. 우리는 단어의 벡터를 변경하여 c에 대해 o가 나타날 확률을 최대화 할 수 있다.<br><br>
 
 - Skip-Gram : 하나의 중심단어를 통해 주변 단어를 예측한다.
@@ -59,3 +59,7 @@ Word2Vec은 Skip-Gram과 CBOW 두가지 방식이 존재한다. 두 방법 모�
 OKT 형태소 분석기와 네이버 영화 리뷰 데이터(nsmc), gensim으로 한국어를 학습시킨 후 단어 연산 프로젝트를 진행해 본다. 예를들어 "왕 - 남자 + 여자"라는 연산에 대하여 "여왕" 혹은 이와 유사한 단어를 출력하도록 한다. 해당 실습 내용은 [여기](https://github.com/bbjoite09/NLP/blob/main/Practice/3.3%20word%20embedding.ipynb) 에서 확인할 수 있다.<br>
 
 ## ✨ Day 4
+#### <b>4.1 CNN</b><br><br>
+#### <b>4.2 Activation</b><br><br>
+#### <b>4.3 RNN</b><br><br>
+#### <b>📝 4.4 simple project with RNN & CNN</b><br><br>
