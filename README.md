@@ -42,7 +42,7 @@ my_corpus라는 새로운 말뭉치로 Tokenizer 실습을 진행하였다. 해�
 행렬의 기본 연산에 대하여 학습하였다.<br> 해당 실습에 대한 내용은 [3.1 matrix equation](https://github.com/bbjoite09/NLP/blob/main/Practice/3.1%20matrix%20equation.ipynb) 에서 확인할 수 있다. <br><br>
 
 #### <b>3.2 word embedding</b><br><br>
-<b>Word Representation</b><br><br>
+#####<b>Word Representation</b><br><br>
 
 - 시소러스(ex. WordNet) : 사람이 단어의 의미를 직접 정의하는 방식을 말한다. 이는 단어의 유의어 집합을 생성한 후, 각각의 연결을 정의하여 이들간의 관계를 표현한다. 이는 쉽다는 장점이 있는 한편, 시대의 변화에 따른 대응이 어렵고, 비용이 높다는 문제를 야기하면서 비효율을 초래한다.<br>
 - Distributional semantics(ex. Word2Vec): outer word들이 center word를 표현하는 방식을 말한다. 즉, 단어 그 자체의 의미보다는 문맥의 흐름을 통하여 단어의 의미를 형성한다. 단어의 의미를 여러 차원에 분산하여 표현하여 단어간 유사도를 계산할 수 있다.<br>
