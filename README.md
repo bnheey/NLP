@@ -42,13 +42,20 @@ my_corpus라는 새로운 말뭉치로 Tokenizer 실습을 진행하였다. 해�
 행렬의 기본 연산에 대하여 학습하였다.<br> 해당 실습에 대한 내용은 [3.1 matrix equation](https://github.com/bbjoite09/NLP/blob/main/Practice/3.1%20matrix%20equation.ipynb) 에서 확인할 수 있다. <br><br>
 
 #### <b>3.2 word embedding</b><br><br>
-#####<b>Word Representation</b><br><br>
-
+<b>Word Representation</b><br>
 - 시소러스(ex. WordNet) : 사람이 단어의 의미를 직접 정의하는 방식을 말한다. 이는 단어의 유의어 집합을 생성한 후, 각각의 연결을 정의하여 이들간의 관계를 표현한다. 이는 쉽다는 장점이 있는 한편, 시대의 변화에 따른 대응이 어렵고, 비용이 높다는 문제를 야기하면서 비효율을 초래한다.<br>
 - Distributional semantics(ex. Word2Vec): outer word들이 center word를 표현하는 방식을 말한다. 즉, 단어 그 자체의 의미보다는 문맥의 흐름을 통하여 단어의 의미를 형성한다. 단어의 의미를 여러 차원에 분산하여 표현하여 단어간 유사도를 계산할 수 있다.<br>
 - 이외에도 통계기반 기법, 동시발생 행렬 등 단어를 표현하는 다양한 방법이 존재한다.<br><br>
 
-<b>Word2Vec</b><br><br>
+<b>Word2Vec</b><br>
 어떤 text data에 대하여 모든 단어는 벡터로 표현된다. 이 단어 벡터들은 유사도를 반영한 값을 가지고 있으며, 어떤 시점 t에는 중심 단어 c와 주변 단어 o가 있다. c에 대하여 o가 나타날 확률을 계산할 때 이 벡터의 유사성을 이용한다. 우리는 단어의 벡터를 변경하여 c에 대해 o가 나타날 확률을 최대화 할 수 있다.<br><br>
 
--  
+- Skip-Gram : 하나의 중심단어를 통해 주변 단어를 예측한다.
+- CBOW(Continuous Bag of Words) : 여러 주변 단어를 통해 중심 단어를 예측한다.<br><br>
+
+Word2Vec은 Skip-Gram과 CBOW 두가지 방식이 존재한다. 두 방법 모두 window size를 지정하여, center word 중심으로 몇개의 주변 단어를 살펴볼지 결정한다. 예를들어 Skip-Gram 에서 window size가 2라고 하면 중심 단어를 기준으로 하여 앞 뒤 2개의 단어를 예측한다. 해당 내용에 대한 실습은 [여기](https://github.com/bbjoite09/NLP/blob/main/Practice/3.2%20word%20embedding.ipynb) 에서 확인할 수 있다.<br><br>
+
+#### <b>📝 3.3 word embedding</b><br><br>
+OKT 형태소 분석기와 네이버 영화 리뷰 데이터(nsmc), gensim으로 한국어를 학습시킨 후 단어 연산 프로젝트를 진행해 본다. 예를들어 "왕 - 남자 + 여자"라는 연산에 대하여 "여왕" 혹은 이와 유사한 단어를 출력하도록 한다. 해당 실습 내용은 [여기](https://github.com/bbjoite09/NLP/blob/main/Practice/3.3%20word%20embedding.ipynb) 에서 확인할 수 있다.<br>
+
+## ✨ Day 4
