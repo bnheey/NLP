@@ -4,9 +4,9 @@
 
 ## ✨ Day 0 
 <details>
-<summary><b>Introduction</b></summary>
-'Google Colab' 및 'Slack'의 조작 방법 익히기 <br>
-'Numpy, Tensorflow, Matplotlib, Pandas'에 대한 기본 지식 학습하기<br><br>
+<summary><b>Introduction</b></summary><br>
+<b>Google Colab</b> 및 <b>Slack</b>의 조작 방법 익히기 <br>
+<b>Numpy, Tensorflow, Matplotlib, Pandas</b>에 대한 기본 지식 학습하기<br><br>
 <p align="center"><img src = "Data/images/day1.PNG" alt="day1" width = "419" height = "343"></p>
 </details>
 
