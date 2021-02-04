@@ -85,6 +85,7 @@ CNN은 주로 이미지 인식에 많이 사용되며, 차원이 높은 데이�
 - stride : kernel을 한번에 이동하는 간격을 말한다.
 - padding : padding의 값에 따라 Input의 상하좌우에 PAD가 둘러진다. 이때 PAD는 주로 '0'을 사용한다.
 - MaxPooling : overfitting을 방지하기 위하여 큰 값을 추출해 낸다. stride가 2라고 할 때 아래의 데이터를 max pooling하면 7, 9, 3, 6의 결과를 얻을 수 있다.
+<img src = "Data/images/maxpooling.jpg" alt = "max pooling image">
 
 </details>
 
