@@ -63,3 +63,5 @@ OKT 형태소 분석기와 네이버 영화 리뷰 데이터(nsmc), gensim으로
 #### <b>4.2 Activation</b><br><br>
 #### <b>4.3 RNN</b><br><br>
 #### <b>📝 4.4 simple project with RNN & CNN</b><br><br>
+Day1에서 진행하였던 simple word project와 simple sentence project에 대하여 CNN과 RNN을 적절히 추가하여 프로젝트를 변경해본다.<br>
+해당 실습 관련 내용은 [여기](https://github.com/bbjoite09/NLP/blob/main/Practice/4.4%20simple%20project%20with%20rnn_cnn.ipynb) 에서 확인할 수 있다.
