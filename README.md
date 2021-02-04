@@ -76,9 +76,26 @@ OKT 형태소 분석기와 네이버 영화 리뷰 데이터(nsmc), gensim으로
 </details>
 
 ## ✨ Day 4
-#### <b>4.1 CNN</b><br><br>
-#### <b>4.2 Activation</b><br><br>
-#### <b>4.3 RNN</b><br><br>
-#### <b>📝 4.4 simple project with RNN & CNN</b><br><br>
+<details><summary><b>4.1 CNN</b></summary><br>
+
+CNN(Convolution Neural Network)에 대하여 학습한다.<br>
+CNN은 주로 이미지 인식에 많이 사용되며, 차원이 높은 데이터를 신경망으로 학습시킬 때는 1차원으로 평면화를 진행해야 한다. 이때 차원을 줄이는 과정에서 공간 정보가 유실되어 학습이 비효율적으로 이루어질 수 있는데, 이를 대비하여 CNN 모델을 사용한다. CNN은 이러한 공간 정보를 유지한 상태로 학습이 가능하도록 만든 모델이다.<br><br>
+
+- Convolution : 합성 곱을 말한다. Input 값에 대하여 filter(kernel)을 이동시켜 겹쳐지는 각 원소의 값을 곱한 후 모두 더하여 계산할 수 있다.
+- stride : kernel을 한번에 이동하는 간격을 말한다.
+- padding : padding의 값에 따라 Input의 상하좌우에 PAD가 둘러진다. 이때 PAD는 주로 '0'을 사용한다.
+- MaxPooling : overfitting을 방지하기 위하여 큰 값을 추출해 낸다. stride가 2라고 할 때 아래의 데이터를 max pooling하면 7, 9, 3, 6의 결과를 얻을 수 있다.
+
+</details>
+
+<details><summary><b>4.2 Activation</b></summary><br>
+
+</details>
+
+<details><summary><b>4.3 RNN</b></summary><br>
+  
+</details>
+
+<details><summary><b>📝 4.4 simple project with RNN & CNN</b></summary><br>
 Day1에서 진행하였던 simple word project와 simple sentence project에 대하여 CNN과 RNN을 적절히 추가하여 프로젝트를 변경해본다.<br>
-해당 실습 관련 내용은 [여기](https://github.com/bbjoite09/NLP/blob/main/Practice/4.4%20simple%20project%20with%20rnn_cnn.ipynb) 에서 확인할 수 있다.
+해당 실습 관련 내용은 <a href = "htt</details>ps://github.com/bbjoite09/NLP/blob/main/Practice/4.4%20simple%20project%20with%20rnn_cnn.ipynb">여기</a>에서 확인할 수 있다.
