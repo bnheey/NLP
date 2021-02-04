@@ -2,11 +2,13 @@
 🌱 2021.01.23 - 2021.02.10 <br>
 🌱 Natural Language Processing_HUFS_AI_CAMP<br>
 
-## ✨ Day 0
+<details>
+## <summary> ✨ Day 0 </summary> 
 
 'Google Colab' 및 'Slack'의 조작 방법 익히기 <br>
 'Numpy, Tensorflow, Matplotlib, Pandas'에 대한 기본 지식 학습하기<br><br>
 <p align="center"><img src = "Data/images/day1.PNG" alt="day1" width = "419" height = "343"></p>
+</details>
 
 ## ✨ Day 1
 
