@@ -1,7 +1,8 @@
 <h1 align="center"> 🙌🏻 자연어 처리(NLP) 🙌🏻 </h1>
 🌱 2021.01.23 - 2021.02.10 <br>
 🌱 Natural Language Processing_HUFS_AI_CAMP<br>
-<p align="center"><img src = "Data/images/NLP main.png" width = "658" height = "388" alt = "NLP main image"></p>
+<p align="center"><img src = "Data/images/NLP main.png" width = "493" height = "291" alt = "NLP main image"></p>
+
 ## ✨ Day 0 
 <details open>
 <summary><b>Introduction</b></summary><br>
