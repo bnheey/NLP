@@ -104,22 +104,37 @@ Day1에서 진행하였던 simple word project와 simple sentence project에 대
 </details>
 
 ## ✨ Day 5
-<details><summary><b>4.1 CNN</b></summary><br>
+<details><summary><b>5.1 text classification</b></summary><br>
+</details>
+
+<details><summary><b>📝 5.2 text classification</b></summary><br>
 </details>
 
 ## ✨ Day 6
-<details><summary><b>4.1 CNN</b></summary><br>
+<details><summary><b>📝 6.1 text similarity</b></summary><br>
+</details>
+
+<details><summary><b>📝 6.2 text similarity with RNN and CNN</b></summary><br>
+</details>
+
+<details><summary><b>✔️ 6.3 text similarity more accuracy</b></summary><br>
 </details>
 
 ## ✨ Day 7
 <details><summary><b>7.1 Language model</b></summary><br>
 </details>
+
 <details><summary><b>📝 7.2 Language model hw1 & language model hw2</b></summary><br>
   
   7.1을 직접 학습시켜본다.<br>
   실습결과는 <a href = "https://github.com/bbjoite09/NLP/blob/main/Practice/7.2%20language%20model%20hw1.ipynb">HW1</a> 또는 <a href = "https://github.com/bbjoite09/NLP/blob/main/Practice/7.3%20language%20model%20hw2.ipynb">HW2</a>에서 확인할 수 있다.
 </details>
 
-## ✨ Day 8
-<details><summary><b>4.1 CNN</b></summary><br>
+## ✨ Day 8 & Day 9
+<details><summary><b>8.1 machine translation</b></summary><br>
+</details>
+
+<details><summary><b>8.2 machine translation</b></summary><br>
+  8.1을 직접 학습시켜본다.<br>
+  실습결과는 <a href = "">여기</a>에서 확인할 수 있다.
 </details>
