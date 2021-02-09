@@ -1,6 +1,7 @@
 <h1 align="center"> 🙌🏻 자연어 처리(NLP) 🙌🏻 </h1>
 🌱 2021.01.23 - 2021.02.10 <br>
 🌱 Natural Language Processing_HUFS_AI_CAMP<br>
+🌱 각각의 Day는 이론과 실습, 과제의 결과물로 이루어져있으며 📝는 과제를 의미한다.
 
 ## ✨ Day 0 
 <details open>
@@ -105,13 +106,15 @@ Day1에서 진행하였던 simple word project와 simple sentence project에 대
 ## ✨ Day 5
 <details><summary><b>4.1 CNN</b></summary><br>
 </details>
+
 ## ✨ Day 6
 <details><summary><b>4.1 CNN</b></summary><br>
 </details>
+
 ## ✨ Day 7
 <details><summary><b>7.1 Language model</b></summary><br>
 </details>
-<details><summary><b>7.2 Language model hw1 & language model hw2</b></summary><br>
+<details><summary><b>📝 7.2 Language model hw1 & language model hw2</b></summary><br>
   
   7.1을 직접 학습시켜본다.<br>
   실습결과는 <a href = "https://github.com/bbjoite09/NLP/blob/main/Practice/7.2%20language%20model%20hw1.ipynb">HW1</a> 또는 <a href = "https://github.com/bbjoite09/NLP/blob/main/Practice/7.3%20language%20model%20hw2.ipynb">HW2</a>에서 확인할 수 있다.
@@ -120,5 +123,3 @@ Day1에서 진행하였던 simple word project와 simple sentence project에 대
 ## ✨ Day 8
 <details><summary><b>4.1 CNN</b></summary><br>
 </details>
-## ✨ Day 7
-<details><summary><b>4.1 CNN</b></summary><br>
