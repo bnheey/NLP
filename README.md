@@ -92,7 +92,7 @@ CNN은 주로 이미지 인식에 사용되며, 차원이 높은 데이터를 �
 keras에서는 conv로 cnn을 구현할 수 있도록 한다. conv1d, conv2d, conv3d 등이 있는데 이는 각각 1차원, 2차원, 3차원의 CNN을 구현한다.<br>
 conv1d와 conv2d는 이동방식에서 차이를 보이는데 1d에서 kerenl은 수직으로만 이동하는 한편, 2d에서는 수직, 수평으로 이동한다.<br><br>
 
-CNN에 대한 실습 내용은 <a href = "https://github.com/bbjoite09/NLP/blob/main/Practice/4.1%20cnn.ipynb">여기</a>에서 확인할 수 있다.
+CNN에 대한 실습 내용은 <a href = "https://github.com/bbjoite09/NLP/blob/main/Practice/4.1%20cnn.ipynb">여기</a>에서 확인할 수 있다.<br>
 </details>
 
 <details><summary><b>4.2 Activation</b></summary><br>
@@ -111,12 +111,21 @@ CNN에 대한 실습 내용은 <a href = "https://github.com/bbjoite09/NLP/blob/
   <p align="center"><img src = "Data/images/relu6.PNG" alt="relu6"></p>
   
   - gelu : relu의 상위 방식으로 확률론적으로 보았을 때 가장 효율이 좋다. 그래프 개형은 아래와 같다.
-  <p align="center"><img src = "Data/images/gelu.PNG" alt="gelu"></p>
+  <p align="center"><img src = "Data/images/gelu.PNG" alt="gelu"></p> <br><br>
+  
+  해당 실습에 대한 내용은 <a href = "https://github.com/bbjoite09/NLP/blob/main/Practice/4.2%20activation.ipynb">여기</a>에서 확인할 수 있다.<br>
   
 </details>
 
 <details><summary><b>4.3 RNN</b></summary><br>
-  RNN(Recurrent Neural Network)에 대하여 학습한다.
+  RNN(Recurrent Neural Network)에 대하여 학습한다.<br>
+  RNN은 sequential data를 처리하기에 적합한 데이터 이다. 이는 hidden layer의 노드에서 activation function 을 통해 나온 결과를 output layer와, hidden layer 노드의 다음 계산의 input으로 보낸다. 다른 feed forward neural network 와 다르다는 것을 확인할 수 있다.<br><br>
+  이는 길이에 상관 없으나, 순서대로 처리해야 하므로 속도가 느리다는 단점이 있다. 순차처리라는 특징때문에 오랜 과거의 정보에 대한 접근이 어렵다는 단점이 있다. 또한 vanishing gradient 현상과 exploding gradient 현상이 발생한다.<br><br>
+  
+  - LSTM(Long-Short Term Memory) : RNN의 vanishing gradient 문제를 해결하기 위한 모델이다. memory cell을 추가하여 RNN에서 장기간 메모리의 필요성에 대한 문제를 해결하였다. 이는 RNN에 비해 더 긴 정보를 잘 처리한다는 장점이 있다.
+  - GRU(Gated Recurrent Unit) : Memory cell을 사용하지 않으며 gate 숫자를 2개로 줄인 모델이다. 이는 LSTM 보다 단순한 구조임에도 불구하고 긴 데이터를 잘 처리한다는 장점이 있다. <br><br>
+  
+  해당 내용에 대한 실습은 <a href = "https://github.com/bbjoite09/NLP/blob/main/Practice/4.3%20rnn.ipynb">여기</a>에서 확인할 수 있다.
 </details>
 
 <details><summary><b>📝 4.4 simple project with RNN & CNN</b></summary><br>
