@@ -102,9 +102,17 @@ CNN에 대한 실습 내용은 <a href = "https://github.com/bbjoite09/NLP/blob/
   <p align="center"><img src = "Data/images/sigmoid.PNG" alt="sigmoid"></p>
   
   - tanh : sigmoid의 중심 값 문제를 해결. 중심 값을 0으로 옮겨 최적화 과정의 비효율을 줄였으나, 여전히 gradient vanishing 현상이 발생한다는 단점이 있다.
+  <p align="center"><img src = "Data/images/tanh.PNG" alt="tanh"></p>
+  
   - relu : 0보다 작은 값이 나온 경우 0을 반환하고, 0보다 큰 값이 나온 경우 그 값을 그대로 반환한다. 이는 위 두가지 방법에 비해 빠르고 구현이 간단하다는 장점이 있으나, 값이 음수인 경우 dying relu현상이 발생할 수 있다는 단점이 있다.
+  <p align="center"><img src = "Data/images/relu.PNG" alt="relu"></p>
+  
   - relu6 : 기존 relu의 상한 값을 6으로 두는 것을 말한다.
+  <p align="center"><img src = "Data/images/relu6.PNG" alt="relu6"></p>
+  
   - gelu : relu의 상위 방식으로 확률론적으로 보았을 때 가장 효율이 좋다.
+  <p align="center"><img src = "Data/images/gelu.PNG" alt="gelu"></p>
+  
 </details>
 
 <details><summary><b>4.3 RNN</b></summary><br>
