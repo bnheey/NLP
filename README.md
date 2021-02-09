@@ -90,8 +90,9 @@ CNN은 주로 이미지 인식에 많이 사용되며, 차원이 높은 데이�
 
 <br>
 keras에서는 conv로 cnn을 구현할 수 있도록 한다. conv1d, conv2d, conv3d 등이 있는데 이는 각각 1차원, 2차원, 3차원의 CNN을 구현한다.<br>
-conv1d와 conv2d는 이동방식에서 차이를 보이는데 1d에서 kerenl은 수직으로만 이동하는 한편, 2d에서는 수직, 수평으로 이동한다.
+conv1d와 conv2d는 이동방식에서 차이를 보이는데 1d에서 kerenl은 수직으로만 이동하는 한편, 2d에서는 수직, 수평으로 이동한다.<br><br>
 
+CNN에 대한 실습 내용은 <a href = "https://github.com/bbjoite09/NLP/blob/main/Practice/4.1%20cnn.ipynb">여기</a>에서 확인할 수 있다.
 </details>
 
 <details><summary><b>4.2 Activation</b></summary><br>
