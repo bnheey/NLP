@@ -145,13 +145,13 @@ Day1에서 진행하였던 simple word project와 simple sentence project에 대
 </details>
 
 <details><summary><b>📝 6.2 text similarity with RNN or CNN</b></summary><br>
-  6.1 Text similarity 프로젝트에 RNN 또는 CNN 모델을 추가하여 결과의 변화를 살펴본다.
-  해당 실습 관련 내용은 <a href = "https://github.com/bbjoite09/NLP/blob/main/Practice/6.2%20text%20similarity%20with%20RNN%20and%20CNN.ipynb">여기</a>에서 확인할 수 있다.
+  6.1 Text similarity 프로젝트에 RNN 또는 CNN 모델을 추가하여 결과의 변화를 살펴본다.<br>
+  해당 실습에 대한 내용은 <a href = "https://github.com/bbjoite09/NLP/blob/main/Practice/6.2%20text%20similarity%20with%20RNN%20and%20CNN.ipynb">여기</a>에서 확인할 수 있다.<br>
 </details>
 
 <details><summary><b>✔️ 6.3 text similarity more accuracy</b></summary><br>
-  Text similarity 프로젝트 결과물의 정확도를 향상시킬 수 있는 방법에 대하여 학습하였다.
-  해당 실습 관련 내용은 <a href = "https://github.com/bbjoite09/NLP/blob/main/Practice/6.3%20text%20similarity%20more%20accuracy.ipynb">여기</a>에서 확인할 수 있다.
+  Text similarity 프로젝트 결과물의 정확도를 향상시킬 수 있는 방법에 대하여 학습하였다.<br>
+  해당 내용은 <a href = "https://github.com/bbjoite09/NLP/blob/main/Practice/6.3%20text%20similarity%20more%20accuracy.ipynb">여기</a>에서 확인할 수 있다.<br>
 </details>
 
 ## ✨ Day 7
