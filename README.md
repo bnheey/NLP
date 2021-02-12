@@ -161,7 +161,7 @@ Day1에서 진행하였던 simple word project와 simple sentence project에 대
 <details><summary><b>📝 7.2 Language model hw1 & language model hw2</b></summary><br>
   
   7.1을 직접 학습시켜본다.<br>
-  실습결과는 <a href = "https://github.com/bbjoite09/NLP/blob/main/Practice/7.2%20language%20model%20hw1.ipynb">HW1</a> 또는 <a href = "https://github.com/bbjoite09/NLP/blob/main/Practice/7.3%20language%20model%20hw2.ipynb">HW2</a>에서 확인할 수 있다.
+  실습결과는 <a href = "https://github.com/bbjoite09/NLP/blob/main/Practice/7.2%20language%20model%20hw1.ipynb">HW1</a> 또는 <a href = "https://github.com/bbjoite09/NLP/blob/main/Practice/7.3%20language%20model%20hw2.ipynb">HW2</a>에서 확인할 수 있다.<br>
 </details>
 
 ## ✨ Day 8 & Day 9
