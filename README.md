@@ -8,7 +8,7 @@
 <summary><b>Introduction</b></summary><br>
 <b>Google Colab</b> 및 <b>Slack</b>의 조작 방법 익히기 <br>
 <b>Numpy, Tensorflow, Matplotlib, Pandas</b>에 대한 기본 지식 학습하기<br><br>
-<p align="center"><img src = "Data/images/day1.PNG" alt="day1" width = "419" height = "343"></p>
+<p align="center"><img src = "Data/images/day1.PNG" alt="day1" width = "419" height = "343"></p><br><br>
 </details>
 
 
@@ -23,7 +23,7 @@ sentences를 입력 받아 구성하는 단어가 긍정인지, 중립인지, �
 <details><summary><b>📝 1.2 문장 분류 프로젝트</b></summary><br>
 위의 단어 분류 프로젝트와 비슷하게 입력받은 문장이 긍정인지, 부정인지 분류하는 프로젝트를 만들어 본다.<br>
 위와 유사하게, 단어의 긍정은 1, 부정은 0로 표시한다. "나는 오늘 기분이 좋아" 라는 문장의 경우 <b>1 : 긍정</b>을 출력하도록 한다.<br>
-실습 내용은 <a href = "https://github.com/bbjoite09/NLP/blob/main/Practice/1.2%20simple%20sentence%20project.ipynb">여기</a>에서 확인할 수 있다.
+실습 내용은 <a href = "https://github.com/bbjoite09/NLP/blob/main/Practice/1.2%20simple%20sentence%20project.ipynb">여기</a>에서 확인할 수 있다. <br><br>
 </details>
 
 ## ✨ Day 2
@@ -47,13 +47,13 @@ Tokenize란 문장을 일정한 규칙을 통해 토큰 단위로 나누는 과�
 
 <details><summary><b>📝 2.3 Tokenizer</b></summary><br>
 my_corpus라는 새로운 말뭉치로 Tokenizer 실습을 진행하였다.<br>
-해당 실습에 대한 내용은 <a href = "https://github.com/bbjoite09/NLP/blob/main/Practice/2.3%20tokenizer.ipynb">여기</a>에서 확인할 수 있다.<br>
+해당 실습에 대한 내용은 <a href = "https://github.com/bbjoite09/NLP/blob/main/Practice/2.3%20tokenizer.ipynb">여기</a>에서 확인할 수 있다.<br><br>
 </details>
 
 ## ✨ Day 3
 <details><summary><b>3.1 matrix equation</b></summary><br>
 행렬의 기본 연산에 대하여 학습하였다.<br>
-해당 실습에 대한 내용은 <a href = "https://github.com/bbjoite09/NLP/blob/main/Practice/3.1%20matrix%20equation.ipynb">여기</a>에서 확인할 수 있다.
+해당 실습에 대한 내용은 <a href = "https://github.com/bbjoite09/NLP/blob/main/Practice/3.1%20matrix%20equation.ipynb">여기</a>에서 확인할 수 있다.<br><br>
 </details>
 
 <details><summary><b>3.2 word embedding</b></summary><br>
@@ -69,11 +69,11 @@ my_corpus라는 새로운 말뭉치로 Tokenizer 실습을 진행하였다.<br>
 - Skip-Gram : 하나의 중심단어를 통해 주변 단어를 예측한다.
 - CBOW(Continuous Bag of Words) : 여러 주변 단어를 통해 중심 단어를 예측한다.<br><br>
 
-Word2Vec은 Skip-Gram과 CBOW 두가지 방식이 존재한다. 두 방법 모두 window size를 지정하여, center word 중심으로 몇개의 주변 단어를 살펴볼지 결정한다. 예를들어 Skip-Gram 에서 window size가 2라고 하면 중심 단어를 기준으로 하여 앞 뒤 2개의 단어를 예측한다.<br>해당 내용에 대한 실습은 <a href = "https://github.com/bbjoite09/NLP/blob/main/Practice/3.2%20word%20embedding.ipynb">여기</a>에서 확인할 수 있다.
+Word2Vec은 Skip-Gram과 CBOW 두가지 방식이 존재한다. 두 방법 모두 window size를 지정하여, center word 중심으로 몇개의 주변 단어를 살펴볼지 결정한다. 예를들어 Skip-Gram 에서 window size가 2라고 하면 중심 단어를 기준으로 하여 앞 뒤 2개의 단어를 예측한다.<br>해당 내용에 대한 실습은 <a href = "https://github.com/bbjoite09/NLP/blob/main/Practice/3.2%20word%20embedding.ipynb">여기</a>에서 확인할 수 있다.<br><br>
 </details>
 
 <details><summary><b>📝 3.3 word embedding</b></summary><br>
-OKT 형태소 분석기와 네이버 영화 리뷰 데이터(nsmc), gensim으로 한국어를 학습시킨 후 단어 연산 프로젝트를 진행해 본다. 예를들어 "왕 - 남자 + 여자"라는 연산에 대하여 "여왕" 혹은 이와 유사한 단어를 출력하도록 한다.<br>해당 실습 내용은 <a href = "https://github.com/bbjoite09/NLP/blob/main/Practice/3.3%20word%20embedding.ipynb">여기</a>에서 확인할 수 있다.<br>
+OKT 형태소 분석기와 네이버 영화 리뷰 데이터(nsmc), gensim으로 한국어를 학습시킨 후 단어 연산 프로젝트를 진행해 본다. 예를들어 "왕 - 남자 + 여자"라는 연산에 대하여 "여왕" 혹은 이와 유사한 단어를 출력하도록 한다.<br>해당 실습 내용은 <a href = "https://github.com/bbjoite09/NLP/blob/main/Practice/3.3%20word%20embedding.ipynb">여기</a>에서 확인할 수 있다.<br><br>
 </details>
 
 ## ✨ Day 4
@@ -92,7 +92,7 @@ CNN은 주로 이미지 인식에 사용되며, 차원이 높은 데이터를 �
 keras에서는 conv로 cnn을 구현할 수 있도록 한다. conv1d, conv2d, conv3d 등이 있는데 이는 각각 1차원, 2차원, 3차원의 CNN을 구현한다.<br>
 conv1d와 conv2d는 이동방식에서 차이를 보이는데 1d에서 kerenl은 수직으로만 이동하는 한편, 2d에서는 수직, 수평으로 이동한다.<br><br>
 
-CNN에 대한 실습 내용은 <a href = "https://github.com/bbjoite09/NLP/blob/main/Practice/4.1%20cnn.ipynb">여기</a>에서 확인할 수 있다.<br>
+CNN에 대한 실습 내용은 <a href = "https://github.com/bbjoite09/NLP/blob/main/Practice/4.1%20cnn.ipynb">여기</a>에서 확인할 수 있다.<br><br>
 </details>
 
 <details><summary><b>4.2 Activation</b></summary><br>
@@ -113,7 +113,7 @@ CNN에 대한 실습 내용은 <a href = "https://github.com/bbjoite09/NLP/blob/
   - gelu : relu의 상위 방식으로 확률론적으로 보았을 때 가장 효율이 좋다. 그래프 개형은 아래와 같다.
   <p align="center"><img src = "Data/images/gelu.PNG" alt="gelu"></p> <br><br>
   
-  해당 실습에 대한 내용은 <a href = "https://github.com/bbjoite09/NLP/blob/main/Practice/4.2%20activation.ipynb">여기</a>에서 확인할 수 있다.<br>
+  해당 실습에 대한 내용은 <a href = "https://github.com/bbjoite09/NLP/blob/main/Practice/4.2%20activation.ipynb">여기</a>에서 확인할 수 있다.<br><br>
   
 </details>
 
@@ -125,12 +125,12 @@ CNN에 대한 실습 내용은 <a href = "https://github.com/bbjoite09/NLP/blob/
   - LSTM(Long-Short Term Memory) : RNN의 vanishing gradient 문제를 해결하기 위한 모델이다. memory cell을 추가하여 RNN에서 장기간 메모리의 필요성에 대한 문제를 해결하였다. 이는 RNN에 비해 더 긴 정보를 잘 처리한다는 장점이 있다.
   - GRU(Gated Recurrent Unit) : Memory cell을 사용하지 않으며 gate 숫자를 2개로 줄인 모델이다. 이는 LSTM 보다 단순한 구조임에도 불구하고 긴 데이터를 잘 처리한다는 장점이 있다. <br><br>
   
-  해당 내용에 대한 실습은 <a href = "https://github.com/bbjoite09/NLP/blob/main/Practice/4.3%20rnn.ipynb">여기</a>에서 확인할 수 있다.
+  해당 내용에 대한 실습은 <a href = "https://github.com/bbjoite09/NLP/blob/main/Practice/4.3%20rnn.ipynb">여기</a>에서 확인할 수 있다.<br><br>
 </details>
 
 <details><summary><b>📝 4.4 simple project with RNN & CNN</b></summary><br>
 Day1에서 진행하였던 simple word project와 simple sentence project에 대하여 CNN과 RNN을 적절히 추가하여 프로젝트를 변경해본다.<br>
-해당 실습 관련 내용은 <a href = "htt</details>ps://github.com/bbjoite09/NLP/blob/main/Practice/4.4%20simple%20project%20with%20rnn_cnn.ipynb">여기</a>에서 확인할 수 있다.
+해당 실습 관련 내용은 <a href = "htt</details>ps://github.com/bbjoite09/NLP/blob/main/Practice/4.4%20simple%20project%20with%20rnn_cnn.ipynb">여기</a>에서 확인할 수 있다.<br><br>
 </details>
 
 ## ✨ Day 5
@@ -146,12 +146,12 @@ Day1에서 진행하였던 simple word project와 simple sentence project에 대
 
 <details><summary><b>📝 6.2 text similarity with RNN or CNN</b></summary><br>
   6.1 Text similarity 프로젝트에 RNN 또는 CNN 모델을 추가하여 결과의 변화를 살펴본다.<br>
-  해당 실습에 대한 내용은 <a href = "https://github.com/bbjoite09/NLP/blob/main/Practice/6.2%20text%20similarity%20with%20RNN%20and%20CNN.ipynb">여기</a>에서 확인할 수 있다.<br>
+  해당 실습에 대한 내용은 <a href = "https://github.com/bbjoite09/NLP/blob/main/Practice/6.2%20text%20similarity%20with%20RNN%20and%20CNN.ipynb">여기</a>에서 확인할 수 있다.<br><br>
 </details>
 
 <details><summary><b>✔️ 6.3 text similarity more accuracy</b></summary><br>
   Text similarity 프로젝트 결과물의 정확도를 향상시킬 수 있는 방법에 대하여 학습하였다.<br>
-  해당 내용은 <a href = "https://github.com/bbjoite09/NLP/blob/main/Practice/6.3%20text%20similarity%20more%20accuracy.ipynb">여기</a>에서 확인할 수 있다.<br>
+  해당 내용은 <a href = "https://github.com/bbjoite09/NLP/blob/main/Practice/6.3%20text%20similarity%20more%20accuracy.ipynb">여기</a>에서 확인할 수 있다.<br><br>
 </details>
 
 ## ✨ Day 7
@@ -161,7 +161,7 @@ Day1에서 진행하였던 simple word project와 simple sentence project에 대
 <details><summary><b>📝 7.2 Language model hw1 & language model hw2</b></summary><br>
   
   7.1을 직접 학습시켜본다.<br>
-  실습결과는 <a href = "https://github.com/bbjoite09/NLP/blob/main/Practice/7.2%20language%20model%20hw1.ipynb">HW1</a> 또는 <a href = "https://github.com/bbjoite09/NLP/blob/main/Practice/7.3%20language%20model%20hw2.ipynb">HW2</a>에서 확인할 수 있다.<br>
+  실습결과는 <a href = "https://github.com/bbjoite09/NLP/blob/main/Practice/7.2%20language%20model%20hw1.ipynb">HW1</a> 또는 <a href = "https://github.com/bbjoite09/NLP/blob/main/Practice/7.3%20language%20model%20hw2.ipynb">HW2</a>에서 확인할 수 있다.<br><br>
 </details>
 
 ## ✨ Day 8 & Day 9
@@ -170,5 +170,5 @@ Day1에서 진행하였던 simple word project와 simple sentence project에 대
 
 <details><summary><b>8.2 machine translation</b></summary><br>
   8.1을 직접 학습시켜본다.<br>
-  실습결과는 <a href = "">여기</a>에서 확인할 수 있다.<br>
+  실습결과는 <a href = "">여기</a>에서 확인할 수 있다.<br><br>
 </details>
