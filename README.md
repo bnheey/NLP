@@ -139,7 +139,7 @@ Day1에서 진행하였던 simple word project와 simple sentence project에 대
 
 <details><summary><b>📝 5.2 text classification</b></summary><br>
 
-5.1의 실습 내용에 대하여
+5.1의 실습 내용에 대하여<br>
 </details>
 
 ## ✨ Day 6
