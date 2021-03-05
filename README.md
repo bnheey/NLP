@@ -174,3 +174,5 @@ Day1에서 진행하였던 simple word project와 simple sentence project에 대
   8.1을 직접 학습시켜본다.<br>
   실습결과는 <a href = "https://github.com/bbjoite09/NLP/blob/main/Practice/8.2%20machine%20translation_hw.ipynb">여기</a>에서 확인할 수 있다.<br><br>
 </details>
+
+## ✨ Day 10
