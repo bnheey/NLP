@@ -144,8 +144,8 @@ Day1에서 진행하였던 simple word project와 simple sentence project에 대
 </details>
 
 <details><summary><b>📝 5.2 text classification</b></summary><br>
-
-5.1의 실습 내용에 대하여<br>
+5.1 text classification 전체 데이터를 학습시킨다. 학습은 RNN 또는 CNN 모델을 추가하여 진행한다.<br>
+해당 실습에 대한 내용은 <a href = "https://github.com/bbjoite09/NLP/blob/main/Practice/5.1%20text%20classification.ipynb">여기</a>에서 확인할 수 있다.<br><br>
 </details>
 
 ## ✨ Day 6
