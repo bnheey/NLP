@@ -135,7 +135,12 @@ Day1에서 진행하였던 simple word project와 simple sentence project에 대
 
 ## ✨ Day 5
 <details><summary><b>5.1 text classification</b></summary><br>
-  Text Classification란 제시하는 Text를 정해진 클래스로 분류하는 작업을 말한다. 이때 클래스의 수가 2개인 경우를 Binary Classification(긍정/부정, SPAM/HAM, Real/Fake), n개인 경우를 Multiclass Classification(언어 분류 : 한국어/ 영어/ 불어/ 스페인어)이라고 한다.
+  Text Classification란 제시하는 Text를 정해진 클래스로 분류하는 작업을 말한다. 이때 클래스의 수가 2개인 경우를 Binary Classification(긍정/부정, SPAM/HAM, Real/Fake), n개인 경우를 Multiclass Classification(언어 분류 : 한국어/ 영어/ 불어/ 스페인어)이라고 한다.<br><br>
+  
+  영화 평가 데이터셋을 활용하여 평가 데이터에 대한 긍정/부정을 분류하는 프로젝트를 진행해 본다.<br>
+  이때 데이터 셋에 자주 등장하는 핵심 단어를 시각화 해주는 Word Cloud도 setting하여 확인해 본다. 실행결과는 아래와 같다.<br><br>
+  <p align="center"><img src = "Data/images/wordcloud.PNG" alt="wordcloud"></p><br><br>
+  해당 실습에 대한 내용은 <a href = "htt</details>ps://github.com/bbjoite09/NLP/blob/main/Practice/4.4%20simple%20project%20with%20rnn_cnn.ipynb">여기</a>에서 확인할 수 있다.<br><br>
 </details>
 
 <details><summary><b>📝 5.2 text classification</b></summary><br>
