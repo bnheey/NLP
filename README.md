@@ -139,8 +139,8 @@ Day1에서 진행하였던 simple word project와 simple sentence project에 대
   
   영화 평가 데이터셋을 활용하여 평가 데이터에 대한 긍정/부정을 분류하는 프로젝트를 진행해 본다.<br>
   이때 데이터 셋에 자주 등장하는 핵심 단어를 시각화 해주는 Word Cloud도 setting하여 확인해 본다. 실행결과는 아래와 같다.<br><br>
-  <p align="center"><img src = "Data/images/wordcloud.PNG" alt="wordcloud"></p><br><br>
-  해당 실습에 대한 내용은 <a href = "htt</details>ps://github.com/bbjoite09/NLP/blob/main/Practice/4.4%20simple%20project%20with%20rnn_cnn.ipynb">여기</a>에서 확인할 수 있다.<br><br>
+  <p align="center"><img src = "Data/images/wordcloud.PNG" alt="wordcloud"></p>
+  해당 실습에 대한 내용은 <a href = "https://github.com/bbjoite09/NLP/blob/main/Practice/5.1%20text%20classification.ipynb">여기</a>에서 확인할 수 있다.<br><br>
 </details>
 
 <details><summary><b>📝 5.2 text classification</b></summary><br>
@@ -179,7 +179,7 @@ Day1에서 진행하였던 simple word project와 simple sentence project에 대
 <details><summary><b>8.2 machine translation</b></summary><br>
   8.1을 학습시킨 후 응답 결과를 확인해 본다.<br>
   응답 결과는 아래와 같으며 학습이 잘 된 것을 확인할 수 있다.<br><br>
-  <p align="center"><img src = "Data/images/response.PNG" alt="response"></p><br>
+  <p align="center"><img src = "Data/images/response.PNG" alt="response"></p>
   실습결과는 <a href = "https://github.com/bbjoite09/NLP/blob/main/Practice/8.2%20machine%20translation_hw.ipynb">여기</a>에서 확인할 수 있다.<br><br>
 </details>
 
