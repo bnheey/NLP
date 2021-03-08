@@ -150,6 +150,9 @@ Day1에서 진행하였던 simple word project와 simple sentence project에 대
 
 ## ✨ Day 6
 <details><summary><b> 6.1 text similarity</b></summary><br>
+  Text similarity란 주어진 쌍의 text가 얼마나 유사한 지 측정하는 것을 말한다. 이때 유사한 정도는 의미적(Semantic), 문법적(Syntactic), 어휘적(Lexical) 등의 기준으로 측정할 수 있다.<br><br>
+  
+  string #1, string #2 두개의 문장을 입력받아 문장간의 유사도를 검사한다.
 </details>
 
 <details><summary><b>📝 6.2 text similarity with RNN or CNN</b></summary><br>
