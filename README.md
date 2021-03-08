@@ -137,7 +137,7 @@ Day1에서 진행하였던 simple word project와 simple sentence project에 대
 <details><summary><b>5.1 text classification</b></summary><br>
   Text Classification란 제시하는 Text를 정해진 클래스로 분류하는 작업을 말한다. 이때 클래스의 수가 2개인 경우를 Binary Classification(긍정/부정, SPAM/HAM, Real/Fake), n개인 경우를 Multiclass Classification(언어 분류 : 한국어/ 영어/ 불어/ 스페인어)이라고 한다.<br><br>
   
-  영화 평가 데이터셋을 활용하여 평가 데이터에 대한 긍정/부정을 분류하는 프로젝트를 진행해 본다.<br>
+  영화 평가 데이터셋을 활용하여 평가 데이터에 대한 긍정/부정을 분류하는 프로젝트를 진행해 본다. 긍정적 문장의 경우 "긍정"을, 부정적 문장의 경우 "부정"을 출력한다.<br>
   이때 데이터 셋에 자주 등장하는 핵심 단어를 시각화 해주는 Word Cloud도 setting하여 확인해 본다. 실행결과는 아래와 같다.<br><br>
   <p align="center"><img src = "Data/images/wordcloud.PNG" alt="wordcloud"></p>
   해당 실습에 대한 내용은 <a href = "https://github.com/bbjoite09/NLP/blob/main/Practice/5.1%20text%20classification.ipynb">여기</a>에서 확인할 수 있다.<br><br>
@@ -152,7 +152,9 @@ Day1에서 진행하였던 simple word project와 simple sentence project에 대
 <details><summary><b> 6.1 text similarity</b></summary><br>
   Text similarity란 주어진 쌍의 text가 얼마나 유사한 지 측정하는 것을 말한다. 이때 유사한 정도는 의미적(Semantic), 문법적(Syntactic), 어휘적(Lexical) 등의 기준으로 측정할 수 있다.<br><br>
   
-  string #1, string #2 두개의 문장을 입력받아 문장간의 유사도를 검사한다.
+  string #1, string #2 두개의 문장을 입력받아 문장간의 유사도를 검사하는 프로젝트를 진행해본다. 두 문장이 의미적으로 비슷한 경우 "같음"을, 다른 경우 "다름"을 출력한다. 출력 결과는 다음과 같다.<br><br>
+  <p align="center"><img src = "Data/images/similarity.PNG" alt="text similarity"></p>
+  해당 실습에 대한 내용은 <a href = "https://github.com/bbjoite09/NLP/blob/main/Practice/6.1%20text%20similarity.ipynb">여기</a>에서 확인할 수 있다.<br><br>
 </details>
 
 <details><summary><b>📝 6.2 text similarity with RNN or CNN</b></summary><br>
