@@ -189,7 +189,8 @@ Day1에서 진행하였던 simple word project와 simple sentence project에 대
 </details>
 
 ## ✨ Day 10
-
+<details><summary><b></b></summary>
+</details>
 ## ✨ Day 11
 
 ## ✨ Day 12
