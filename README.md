@@ -177,7 +177,7 @@ Day1에서 진행하였던 simple word project와 simple sentence project에 대
   실습결과는 <a href = "https://github.com/bbjoite09/NLP/blob/main/Practice/7.2%20language%20model%20hw1.ipynb">HW1</a> 또는 <a href = "https://github.com/bbjoite09/NLP/blob/main/Practice/7.3%20language%20model%20hw2.ipynb">HW2</a>에서 확인할 수 있다.<br><br>
 </details>
 
-## ✨ Day 8 & Day 9
+## ✨ Day 8
 <details><summary><b>8.1 machine translation</b></summary><br>
 </details>
 
@@ -186,6 +186,10 @@ Day1에서 진행하였던 simple word project와 simple sentence project에 대
   응답 결과는 아래와 같으며 학습이 잘 된 것을 확인할 수 있다.<br><br>
   <p align="center"><img src = "Data/images/response.PNG" alt="response"></p>
   실습결과는 <a href = "https://github.com/bbjoite09/NLP/blob/main/Practice/8.2%20machine%20translation_hw.ipynb">여기</a>에서 확인할 수 있다.<br><br>
+</details>
+
+## ✨ Day 9
+<details><summary><b>9.1 attention.ipynb</b></summary>
 </details>
 
 ## ✨ Day 10
