@@ -196,6 +196,11 @@ Day1에서 진행하였던 simple word project와 simple sentence project에 대
 <details><summary><b></b></summary>
 </details>
 
+<details><summary><b>10.2</b></summary>
+실습결과는 <a href = "https://github.com/bbjoite09/NLP/blob/main/Practice/10.2%20transformer%20chat.ipynb">여기</a>에서 확인할 수 있다.<br><br>
+</details>
+
+
 ## ✨ Day 11
 <details><summary><b></b></summary>
 </details>
