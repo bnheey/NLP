@@ -216,3 +216,5 @@ Day1에서 진행하였던 simple word project와 simple sentence project에 대
 ## ✨ Day 14
 <details><summary><b></b></summary>
 </details>
+
+<br>
