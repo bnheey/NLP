@@ -201,7 +201,7 @@ Day1에서 진행하였던 simple word project와 simple sentence project에 대
 </details>
 
 ## ✨ Day 12 & Day 13
-<details><summary><b>10.2 transformer chat/b></summary>
+<details><summary><b>10.2 transformer chat</b></summary>
 실습결과는 <a href = "https://github.com/bbjoite09/NLP/blob/main/Practice/10.2%20transformer%20chat.ipynb">여기</a>에서 확인할 수 있다.<br><br>
 </details>
   
