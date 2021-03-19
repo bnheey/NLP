@@ -181,7 +181,7 @@ Day1에서 진행하였던 simple word project와 simple sentence project에 대
 <details><summary><b>8.1 machine translation</b></summary><br>
 </details>
 
-<details><summary><b>8.2 machine translation</b></summary><br>
+<details><summary><b>📝 8.2 machine translation</b></summary><br>
   8.1을 학습시킨 후 응답 결과를 확인해 본다.<br>
   응답 결과는 아래와 같으며 학습이 잘 된 것을 확인할 수 있다.<br><br>
   <p align="center"><img src = "Data/images/response.PNG" alt="response"></p>
@@ -189,7 +189,14 @@ Day1에서 진행하였던 simple word project와 simple sentence project에 대
 </details>
 
 ## ✨ Day 9
-<details><summary><b>9.1 attention.ipynb</b></summary>
+<details><summary><b>9.1 attention</b></summary>
+</details>
+
+<details><summary><b>📝 9.2 attention_homework</b></summary>
+  9.1을 학습시킨 후 결과를 확인해 본다.<br>
+  실습결과는 <a href = "https://github.com/bbjoite09/NLP/blob/main/Practice/9.2%20attention%20hw.ipynb">여기</a>에서 확인할 수 있다.<br><br>
+</details>
+
 </details>
 
 ## ✨ Day 10
