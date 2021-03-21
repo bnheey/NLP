@@ -169,6 +169,8 @@ Day1에서 진행하였던 simple word project와 simple sentence project에 대
 
 ## ✨ Day 7
 <details><summary><b>7.1 Language model</b></summary><br>
+  Language model은 언어의 확률분포를 추정하는 것을 말한다. 대표적으로 포털 검색시 이용할 수 있는 Autocomplete 기능, 오타를 자동으로 교정하는 기능, 음성 인식 등의 예시를 살펴볼 수 있다.<br>
+  실제 언어의 확률 분포를 아는 것은 어려우나 좋은 근사치를 제공하는 language model을 정의할 수 있다.
 </details>
 
 <details><summary><b>📝 7.2 Language model hw1 & language model hw2</b></summary><br>
