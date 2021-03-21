@@ -193,36 +193,38 @@ Day1에서 진행하였던 simple word project와 simple sentence project에 대
   8.1을 학습시킨 후 응답 결과를 확인해 본다.<br>
   응답 결과는 아래와 같으며 학습이 잘 된 것을 확인할 수 있다.<br><br>
   <p align="center"><img src = "Data/images/response.PNG" alt="response"></p>
-  실습결과는 <a href = "https://github.com/bbjoite09/NLP/blob/main/Practice/8.2%20machine%20translation_hw.ipynb">여기</a>에서 확인할 수 있다.<br><br>
+  실습 결과는 <a href = "https://github.com/bbjoite09/NLP/blob/main/Practice/8.2%20machine%20translation_hw.ipynb">여기</a>에서 확인할 수 있다.<br><br>
 </details>
 
 ## ✨ Day 9
 <details><summary><b>9.1 attention</b></summary>
+  실습 결과는 <a href = "https://github.com/bbjoite09/NLP/blob/main/Practice/9.1%20attention.ipynb">여기</a>에서 확인할 수 있다.<br><br>
 </details>
 
-<details><summary><b>📝 9.2 attention_homework</b></summary>
+<details><summary><b>📝 9.2 attention_homework</b></summary><br>
   9.1을 학습시킨 후 결과를 확인해 본다.<br>
-  실습결과는 <a href = "https://github.com/bbjoite09/NLP/blob/main/Practice/9.2%20attention%20hw.ipynb">여기</a>에서 확인할 수 있다.<br><br>
-</details>
-
+  실습 결과는 <a href = "https://github.com/bbjoite09/NLP/blob/main/Practice/9.2%20attention%20hw.ipynb">여기</a>에서 확인할 수 있다.<br><br>
 </details>
 
 ## ✨ Day 10
-<details><summary><b>10.0 transformer tutorial</b></summary>
+<details><summary><b>10.0 transformer tutorial</b></summary><br>
+  실습 결과는 <a href = "https://github.com/bbjoite09/NLP/blob/main/Practice/10.1%20transformer%20tutorial.ipynb">여기</a>에서 확인할 수 있다.<br><br>
 </details>
 
 ## ✨ Day 11
-<details><summary><b>10.1 transformer nsmc gitconnection</b></summary>
+<details><summary><b>10.1 transformer nsmc gitconnection</b></summary><br>
+  실습 결과는 <a href = "https://github.com/bbjoite09/NLP/blob/main/Practice/10.1%20transformer%20nsmc%20gitconnection.ipynb">여기</a>에서 확인할 수 있다.<br><br>
 </details>
 
 ## ✨ Day 12 & Day 13
-<details><summary><b>10.2 transformer chat</b></summary>
-실습결과는 <a href = "https://github.com/bbjoite09/NLP/blob/main/Practice/10.2%20transformer%20chat.ipynb">여기</a>에서 확인할 수 있다.<br><br>
+<details><summary><b>10.2 transformer chat</b></summary><br>
+실습 결과는 <a href = https://github.com/bbjoite09/NLP/blob/main/Practice/10.2%20transformer%20chat.ipynb">여기</a>에서 확인할 수 있다.<br><br>
 </details>
   
 ## ✨ Day 14
-<details><summary><b>Transformer English Samples</b></summary>
-</details>
 
-<details><summary><b>YOLOv4 Tutorial</b></summary>
-</details>
+14일차는 캠프를 마무리하며 '자연어 처리'라는 주제에 국한되지 않고 추가적으로 알면 좋은 지식들에 대하여 학습하였다.<br>
+해당 실습에 대한 내용은 아래 링크를 통해 확인할 수 있다.<br><br>
+
+<a href = "https://github.com/bbjoite09/NLP/blob/main/Practice/Transformer%20English%20Samples.ipynb">1. Transformer English Samples</a><br><br>
+<a href = "https://github.com/bbjoite09/NLP/blob/main/Practice/YOLOv4%20Tutorial.ipynb">2. YOLOv4 Tutorial</a><br><br>
