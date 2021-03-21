@@ -224,7 +224,7 @@ Day1에서 진행하였던 simple word project와 simple sentence project에 대
 ## ✨ Day 14
 
 14일차는 캠프를 마무리하며 '자연어 처리'라는 주제에 국한되지 않고 추가적으로 알면 좋은 지식들에 대하여 학습하였다.<br>
-해당 실습에 대한 내용은 아래 링크를 통해 확인할 수 있다.<br><br>
+해당 실습에 대한 내용은 아래 링크를 통해 확인할 수 있다.
 
 1. <a href = "https://github.com/bbjoite09/NLP/blob/main/Practice/Transformer%20English%20Samples.ipynb">Transformer English Samples</a>
 2. <a href = "https://github.com/bbjoite09/NLP/blob/main/Practice/YOLOv4%20Tutorial.ipynb">YOLOv4 Tutorial</a><br><br>
