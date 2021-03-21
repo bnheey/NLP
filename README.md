@@ -172,8 +172,8 @@ Day1에서 진행하였던 simple word project와 simple sentence project에 대
   Language model은 언어의 확률분포를 추정하는 것을 말한다. 대표적으로 포털 검색시 이용할 수 있는 Autocomplete 기능, 오타를 자동으로 교정하는 기능, 음성 인식 등의 예시를 살펴볼 수 있다.<br>
   실제 언어의 확률 분포를 아는 것은 어려우나 좋은 근사치를 제공하는 language model을 정의할 수 있다.<br><br>
   입력 단어에 대하여 다음 단어를 예측하는 프로젝트를 진행한다. '시작 문장>'의 콘솔창에 단어를 입력하였을 때, 다음으로 올 수 있는 단어를 확률적으로 추정한다. 출력 결과는 아래와 같다.<br>
-  <img src = "Data/images/language model.PNG" alt="language model output1"><br>
-  <img src = "Data/images/language model2.PNG" alt="language model output2"><br><br>
+  <p align="center"><img src = "Data/images/language model.PNG" width = "135" height = "302" alt="language model output1"></p>
+  <p align="center"><img src = "Data/images/language model2.PNG" alt="language model output2"></p><br><br>
   
   실습 내용은 <a href = "https://github.com/bbjoite09/NLP/blob/main/Practice/7.1%20language%20model.ipynb">여기</a>에서 확인할 수 있다.<br><br>
 
