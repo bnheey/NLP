@@ -191,6 +191,10 @@ Day1에서 진행하였던 simple word project와 simple sentence project에 대
 
 ## ✨ Day 8
 <details><summary><b>8.1 machine translation</b></summary><br>
+  Machine Translation이란 Source language 문장 에서 타깃 language 문장으로 번역하는 일을 말한다.
+  
+  * History of Machine Translation
+  ** Rule based machine translation : 규칙을 기반으로 한 번역
 </details>
 
 <details><summary><b>📝 8.2 machine translation</b></summary><br>
@@ -201,7 +205,7 @@ Day1에서 진행하였던 simple word project와 simple sentence project에 대
 </details>
 
 ## ✨ Day 9
-<details><summary><b>9.1 attention</b></summary>
+<details><summary><b>9.1 attention</b></summary><br>
   실습 결과는 <a href = "https://github.com/bbjoite09/NLP/blob/main/Practice/9.1%20attention.ipynb">여기</a>에서 확인할 수 있다.<br><br>
 </details>
 
