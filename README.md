@@ -193,12 +193,12 @@ Day1에서 진행하였던 simple word project와 simple sentence project에 대
 <details><summary><b>8.1 machine translation</b></summary><br>
   Machine Translation이란 Source language 문장 에서 타깃 language 문장으로 번역하는 일을 말한다.<br><br>
   
-<b><History of Machine Translation</b>
+<b><History of Machine Translation></b>
   * Rule based machine translation : 규칙을 기반으로한 번역. 언어마다 rule이 다르기 때문에 효율성은 떨어진다.(ex. I am a student -> 나는 이다 학생)
   * Satistical machine translation : 통계를 기반으로한 번역. 데이터로 부터 통계 모델을 학습하며, 많은 양의 학습 데이터가 필요하다.(수 천개의 확률적 가능성을 생성하여 정확성에 대한 순위를 메겨 평가한다.)
-  * Neural machine translation : Neural network를 기반으로한 번역. 데이터로 부터 Neural network를 학습한다.(ex. seq2seq model)<br>
+  * Neural machine translation : Neural network를 기반으로한 번역. 데이터로 부터 Neural network를 학습한다.(ex. seq2seq model)<br><br>
 
-여기서 seq2seq 모델을 간단하게 살펴보았다. 이는 encoder-decodel model 이라고도 불리며, Encoder에서 정보를 규칙에 따라 변화시키고 Deocoder 에서 인코딩된 정보를 되돌린다. 즉 Encoder를 거친 정보는 정보가 응축되어 있으며, 이 정보들을 통하여 Decoder는 단어를 뽑아 번역 문장을 생성한다.<br><br><br>
+여기서 seq2seq 모델을 간단하게 살펴보았다. 이는 encoder-decodel model 이라고도 불리며, Encoder에서 정보를 규칙에 따라 변화시키고 Deocoder 에서 인코딩된 정보를 되돌린다. 즉 Encoder를 거친 정보는 정보가 응축되어 있으며, 이 정보들을 통하여 Decoder는 단어를 뽑아 번역 문장을 생성한다.<br><br>
 
 사용자가 입력한 질문에 대하여 확률적으로 추정하여 답변을 하는 챗봇을 만드는 프로젝트를 진행해본다. '질문>' 이라는 콘솔에 질문을 입력하면 답변이 출력되도록 설계한다.<br>
 <p align="center"><img src = "Data/images/machine translation.PNG" alt="machine translation process"></p><br><br>
