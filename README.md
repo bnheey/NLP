@@ -215,7 +215,17 @@ Day1에서 진행하였던 simple word project와 simple sentence project에 대
 
 ## ✨ Day 9
 <details><summary><b>9.1 attention</b></summary><br>
-  실습 결과는 <a href = "https://github.com/bbjoite09/NLP/blob/main/Practice/9.1%20attention.ipynb">여기</a>에서 확인할 수 있다.<br><br>
+  
+  앞서 Day8 에서 학습하였던 seq2seq model은 하나의 고정된 크기의 벡터에 정보를 압축하기 때문에 정보 손실이 발생할 수 있다. 또한 RNN에 기반한 model이기 때문에 Vanishing gradient 문제가 발생한다. 이는 문장이 길어졌을 경우 번역의 품질이 낮아진다는 것을 의미하는데 이를 보안하기 위한 것이 attention model이다.<br>
+  이는 이용하려는 목적에 맞는 source에 집중하는 것이다. 예를들어 감정 analysis project인 경우 "나는 오늘 기분이 좋아"라는 문장에서 "좋아"에 집중할 수 있다. 다른 예시로는 사진 표정 분류 project의 경우 사람의 눈, 입에 집중할 수 있다.<br>
+  즉 attention model은 source의 특정 부분에 집중하기 위하여, Decoder에서 Encoder에 입력된 전체 입력 문장을 직접 접근한다. <br><br>
+  
+  attention을 이용하였을 때 Neural machine translation의 성능이 좋아지며, 앞서 언급한 seq2seq의 두가지 문제점(Information bottleneck 문제, Vanishing gradient 문제)을 해결한다.<br><br>
+  
+  Day8의 project에 attention 모델을 이용하여 성능을 향상시켜본다. 결과는 아래와 같다. <br><br>
+  <p align="center"><img src = "Data/images/attention.PNG" alt="attention result"></p>
+  
+  자세한 내용은 <a href = "https://github.com/bbjoite09/NLP/blob/main/Practice/9.1%20attention.ipynb">여기</a>에서 확인할 수 있다.<br><br>
 </details>
 
 <details><summary><b>📝 9.2 attention_homework</b></summary><br>
