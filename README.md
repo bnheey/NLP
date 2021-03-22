@@ -196,9 +196,14 @@ Day1에서 진행하였던 simple word project와 simple sentence project에 대
 <b><History of Machine Translation</b>
   * Rule based machine translation : 규칙을 기반으로한 번역. 언어마다 rule이 다르기 때문에 효율성은 떨어진다.(ex. I am a student -> 나는 이다 학생)
   * Satistical machine translation : 통계를 기반으로한 번역. 데이터로 부터 통계 모델을 학습하며, 많은 양의 학습 데이터가 필요하다.(수 천개의 확률적 가능성을 생성하여 정확성에 대한 순위를 메겨 평가한다.)
-  * Neural machine translation : Neural network를 기반으로한 번역. 데이터로 부터 Neural network를 학습한다.(ex. seq2seq model)
+  * Neural machine translation : Neural network를 기반으로한 번역. 데이터로 부터 Neural network를 학습한다.(ex. seq2seq model)<br>
 
-여기서 seq2seq 모델을 간단하게 살펴보았다. 이는 encoder-decodel model 이라고도 불리며, Encoder에서 정보를 규칙에 따라 변화시키고 Deocoder 에서 인코딩된 정보를 되돌린다. 즉 Encoder를 거친 정보는 정보가 응축되어 있으며, 이 정보들을 통하여 Decoder는 단어를 뽑아 번역 문장을 생성한다.
+여기서 seq2seq 모델을 간단하게 살펴보았다. 이는 encoder-decodel model 이라고도 불리며, Encoder에서 정보를 규칙에 따라 변화시키고 Deocoder 에서 인코딩된 정보를 되돌린다. 즉 Encoder를 거친 정보는 정보가 응축되어 있으며, 이 정보들을 통하여 Decoder는 단어를 뽑아 번역 문장을 생성한다.<br><br><br>
+
+사용자가 입력한 질문에 대하여 확률적으로 추정하여 답변을 하는 챗봇을 만드는 프로젝트를 진행해본다. '질문>' 이라는 콘솔에 질문을 입력하면 답변이 출력되도록 설계한다.<br>
+<p align="center"><img src = "Data/images/machine translation.PNG" alt="machine translation process"></p><br><br>
+
+  자세한 내용은 <a href = "https://github.com/bbjoite09/NLP/blob/main/Practice/8.1%20machine%20translation.ipynb">여기</a>에서 확인할 수 있으며 아래 8.2 machine translation_HW 에서 좀 더 많은 양의 데이터로 학습시킨 결과를 사진으로 확인할 수 있다.(챗봇의 성능이 위의 결과보다 좋아졌다.)<br><br>
 </details>
 
 <details><summary><b>📝 8.2 machine translation</b></summary><br>
