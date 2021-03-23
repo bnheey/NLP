@@ -277,7 +277,8 @@ nslation의 성능이 좋아지며, 앞서 언급한 seq2seq의 두가지 문제
 </details>
 <details><summary><b>10.2 transformer chat</b></summary><br>
 
- transformer을 이용하여 chatbot을 구현해 본다. <br>
+ transformer을 이용하여 chatbot을 구현해 본다. 이전에 구현한 chatbot 보다 성능이 좋아졌음을 확인할 수 있다. 출력은 아래와 같다.<br>
+ <p align="center"><img src = "Data/images/transformer chat.PNG" alt="transformer chat"></p><br><br>
 자세한 내용은 <a href = "https://github.com/bbjoite09/NLP/blob/main/Practice/10.2%20transformer%20chat.ipynb">여기</a>에서 확인할 수 있다.<br><br>
 </details>
 
