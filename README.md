@@ -20,12 +20,13 @@
 <details><summary><b>1.1 단어 분류 프로젝트</b></summary><br>
 sentences를 입력 받아 구성하는 단어가 긍정인지, 중립인지, 부정인지 분류하는 프로젝트를 만들어 본다. <br>
 이때 단어의 긍정은 2, 중립은 1, 부정은 0으로 표시하며, 예를 들어 "나는 오늘 기분이 좋아" 라는 문장의 경우 띄어쓰기를 기준으로 split()하여 <b>[1, 1, 1, 2]</b>를 출력한다.<br>
-단어 분류 프로젝트는 데이터를 통해 Vocabulary를 생성 -> 학습용 데이터 생성 -> 모델링 -> 학습 -> 평가 -> 예측을 통해 진행된다. 실습 내용은 <a href = "https://github.com/bbjoite09/NLP/blob/main/Practice/1.1%20simple%20word%20project.ipynb">여기</a>에서 확인할 수 있다.<br><br>
+단어 분류 프로젝트는 데이터를 통해 Vocabulary를 생성 -> 학습용 데이터 생성 -> 모델링 -> 학습 -> 평가 -> 예측을 통해 진행된다.<br><br>
+실습 내용은 <a href = "https://github.com/bbjoite09/NLP/blob/main/Practice/1.1%20simple%20word%20project.ipynb">여기</a>에서 확인할 수 있다.<br><br>
 </details>
 
 <details><summary><b>📝 1.2 문장 분류 프로젝트</b></summary><br>
 위의 단어 분류 프로젝트와 비슷하게 입력받은 문장이 긍정인지, 부정인지 분류하는 프로젝트를 만들어 본다.<br>
-위와 유사하게, 단어의 긍정은 1, 부정은 0로 표시한다. "나는 오늘 기분이 좋아" 라는 문장의 경우 <b>1 : 긍정</b>을 출력하도록 한다.<br>
+위와 유사하게, 단어의 긍정은 1, 부정은 0로 표시한다. "나는 오늘 기분이 좋아" 라는 문장의 경우 <b>1 : 긍정</b>을 출력하도록 한다.<br><br>
 실습 내용은 <a href = "https://github.com/bbjoite09/NLP/blob/main/Practice/1.2%20simple%20sentence%20project.ipynb">여기</a>에서 확인할 수 있다. <br><br>
 </details>
 <br>
@@ -35,7 +36,7 @@ sentences를 입력 받아 구성하는 단어가 긍정인지, 중립인지, �
 <details><summary><b>2.1 Encodding</b></summary><br>
 첫번째로 데이터를 표현하는 방법에 대하여 학습하였다.<br>
 Text data의 경우 입력받은 문장을 중복을 제거하여 Tokenizer 한 후 각 Token에 대하여 index를 부여한다. 이후 Encoding을 진행한다. 이때 여러가지의 Encoding 중 One hot encoding에 대한 실습을 진행하였다.<br><br>
-One hot encoding은 위에서 받은 Token의 집합, 즉 단어의 집합을 벡터 차원의 크기로 만들고 원하는 한개의 단어 인덱스에만 1, 나머지 단어들에는 0을 부여하는 벡터 표현 방식이다.<br>
+One hot encoding은 위에서 받은 Token의 집합, 즉 단어의 집합을 벡터 차원의 크기로 만들고 원하는 한개의 단어 인덱스에만 1, 나머지 단어들에는 0을 부여하는 벡터 표현 방식이다.<br><br>
 실습 내용은 <a href = "https://github.com/bbjoite09/NLP/blob/main/Practice/2.1%20encoding.ipynb">여기</a>에서 확인할 수 있다.<br><br>
 </details>
 
@@ -220,7 +221,7 @@ Day1에서 진행하였던 simple word project와 simple sentence project에 대
 </details>
 <br>
 
-## ✨ Day 9
+## ✨ Day 9 & Day 10
 <details><summary><b>9.1 attention</b></summary><br>
   
   앞서 Day8 에서 학습하였던 seq2seq model은 하나의 고정된 크기의 벡터에 정보를 압축하기 때문에 정보 손실이 발생할 수 있다. 또한 RNN에 기반한 model이기 때문에 Vanishing gradient 문제가 발생한다. 이는 문장이 길어졌을 경우 번역의 품질이 낮아진다는 것을 의미하는데 이를 보안하기 위한 것이 attention model이다.<br>
@@ -241,19 +242,17 @@ Day1에서 진행하였던 simple word project와 simple sentence project에 대
 </details>
 <br>
 
-## ✨ Day 10
+## ✨ Day 11 & Day 12 & Day 13
 <details><summary><b>10.0 transformer tutorial</b></summary><br>
-  실습 결과는 <a href = "https://github.com/bbjoite09/NLP/blob/main/Practice/10.1%20transformer%20tutorial.ipynb">여기</a>에서 확인할 수 있다.<br><br>
+  Day 10 부터 Day 13 까지는 Transformer에 대하여 학습한다.<br>
+  Transformer에 대한 기본적인 개념들에 대하여 실습을 진행해본다.<br><br>
+  실습에 대한 자세한 내용은 <a href = "https://github.com/bbjoite09/NLP/blob/main/Practice/10.1%20transformer%20tutorial.ipynb">여기</a>에서 확인할 수 있다.<br><br>
 </details>
 <br>
-
-## ✨ Day 11
 <details><summary><b>10.1 transformer nsmc gitconnection</b></summary><br>
   실습 결과는 <a href = "https://github.com/bbjoite09/NLP/blob/main/Practice/10.1%20transformer%20nsmc%20gitconnection.ipynb">여기</a>에서 확인할 수 있다.<br><br>
 </details>
 <br>
-
-## ✨ Day 12 & Day 13
 <details><summary><b>10.2 transformer chat</b></summary><br>
 실습 결과는 <a href = https://github.com/bbjoite09/NLP/blob/main/Practice/10.2%20transformer%20chat.ipynb">여기</a>에서 확인할 수 있다.<br><br>
 </details>
