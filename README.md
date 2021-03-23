@@ -14,8 +14,7 @@
 <b>Numpy, Tensorflow, Matplotlib, Pandas</b>에 대한 기본 지식 학습하기<br><br>
 <p align="center"><img src = "Data/images/day1.PNG" alt="day1" width = "419" height = "343"></p><br><br>
 </details>
-
-
+<br>
 
 ## ✨ Day 1
 <details><summary><b>1.1 단어 분류 프로젝트</b></summary><br>
@@ -29,6 +28,7 @@ sentences를 입력 받아 구성하는 단어가 긍정인지, 중립인지, �
 위와 유사하게, 단어의 긍정은 1, 부정은 0로 표시한다. "나는 오늘 기분이 좋아" 라는 문장의 경우 <b>1 : 긍정</b>을 출력하도록 한다.<br>
 실습 내용은 <a href = "https://github.com/bbjoite09/NLP/blob/main/Practice/1.2%20simple%20sentence%20project.ipynb">여기</a>에서 확인할 수 있다. <br><br>
 </details>
+<br>
 
 ## ✨ Day 2
 
@@ -53,6 +53,7 @@ Tokenize란 문장을 일정한 규칙을 통해 토큰 단위로 나누는 과�
 my_corpus라는 새로운 말뭉치로 Tokenizer 실습을 진행하였다.<br>
 해당 실습에 대한 내용은 <a href = "https://github.com/bbjoite09/NLP/blob/main/Practice/2.3%20tokenizer.ipynb">여기</a>에서 확인할 수 있다.<br><br>
 </details>
+<br>
 
 ## ✨ Day 3
 <details><summary><b>3.1 matrix equation</b></summary><br>
@@ -79,6 +80,7 @@ Word2Vec은 Skip-Gram과 CBOW 두가지 방식이 존재한다. 두 방법 모�
 <details><summary><b>📝 3.3 word embedding</b></summary><br>
 OKT 형태소 분석기와 네이버 영화 리뷰 데이터(nsmc), gensim으로 한국어를 학습시킨 후 단어 연산 프로젝트를 진행해 본다. 예를들어 "왕 - 남자 + 여자"라는 연산에 대하여 "여왕" 혹은 이와 유사한 단어를 출력하도록 한다.<br>해당 실습 내용은 <a href = "https://github.com/bbjoite09/NLP/blob/main/Practice/3.3%20word%20embedding.ipynb">여기</a>에서 확인할 수 있다.<br><br>
 </details>
+<br>
 
 ## ✨ Day 4
 <details><summary><b>4.1 CNN</b></summary><br>
@@ -136,6 +138,7 @@ CNN에 대한 실습 내용은 <a href = "https://github.com/bbjoite09/NLP/blob/
 Day1에서 진행하였던 simple word project와 simple sentence project에 대하여 CNN과 RNN을 적절히 추가하여 프로젝트를 변경해본다.<br>
 해당 실습 관련 내용은 <a href = "htt</details>ps://github.com/bbjoite09/NLP/blob/main/Practice/4.4%20simple%20project%20with%20rnn_cnn.ipynb">여기</a>에서 확인할 수 있다.<br><br>
 </details>
+<br>
 
 ## ✨ Day 5
 <details><summary><b>5.1 text classification</b></summary><br>
@@ -151,6 +154,7 @@ Day1에서 진행하였던 simple word project와 simple sentence project에 대
 5.1 text classification 전체 데이터를 학습시킨다. 학습은 RNN 또는 CNN 모델을 추가하여 진행한다.<br>
 해당 실습에 대한 내용은 <a href = "https://github.com/bbjoite09/NLP/blob/main/Practice/5.2%20text%20classification.ipynb">여기</a>에서 확인할 수 있다.<br><br>
 </details>
+<br>
 
 ## ✨ Day 6
 <details><summary><b> 6.1 text similarity</b></summary><br>
@@ -170,6 +174,7 @@ Day1에서 진행하였던 simple word project와 simple sentence project에 대
   Text similarity 프로젝트 결과물의 정확도를 향상시킬 수 있는 방법에 대하여 학습하였다.<br>
   해당 내용은 <a href = "https://github.com/bbjoite09/NLP/blob/main/Practice/6.3%20text%20similarity%20more%20accuracy.ipynb">여기</a>에서 확인할 수 있다.<br><br>
 </details>
+<br>
 
 ## ✨ Day 7
 <details><summary><b>7.1 Language model</b></summary><br>
@@ -188,6 +193,7 @@ Day1에서 진행하였던 simple word project와 simple sentence project에 대
   7.1을 직접 학습시켜본다.<br>
   실습결과는 <a href = "https://github.com/bbjoite09/NLP/blob/main/Practice/7.2%20language%20model%20hw1.ipynb">HW1</a> 또는 <a href = "https://github.com/bbjoite09/NLP/blob/main/Practice/7.3%20language%20model%20hw2.ipynb">HW2</a>에서 확인할 수 있다.<br><br>
 </details>
+<br>
 
 ## ✨ Day 8
 <details><summary><b>8.1 machine translation</b></summary><br>
@@ -212,6 +218,7 @@ Day1에서 진행하였던 simple word project와 simple sentence project에 대
   <p align="center"><img src = "Data/images/response.PNG" alt="response"></p>
   실습 결과는 <a href = "https://github.com/bbjoite09/NLP/blob/main/Practice/8.2%20machine%20translation_hw.ipynb">여기</a>에서 확인할 수 있다.<br><br>
 </details>
+<br>
 
 ## ✨ Day 9
 <details><summary><b>9.1 attention</b></summary><br>
@@ -232,21 +239,25 @@ Day1에서 진행하였던 simple word project와 simple sentence project에 대
   9.1을 학습시킨 후 결과를 확인해 본다.<br>
   실습 결과는 <a href = "https://github.com/bbjoite09/NLP/blob/main/Practice/9.2%20attention%20hw.ipynb">여기</a>에서 확인할 수 있다.<br><br>
 </details>
+<br>
 
 ## ✨ Day 10
 <details><summary><b>10.0 transformer tutorial</b></summary><br>
   실습 결과는 <a href = "https://github.com/bbjoite09/NLP/blob/main/Practice/10.1%20transformer%20tutorial.ipynb">여기</a>에서 확인할 수 있다.<br><br>
 </details>
+<br>
 
 ## ✨ Day 11
 <details><summary><b>10.1 transformer nsmc gitconnection</b></summary><br>
   실습 결과는 <a href = "https://github.com/bbjoite09/NLP/blob/main/Practice/10.1%20transformer%20nsmc%20gitconnection.ipynb">여기</a>에서 확인할 수 있다.<br><br>
 </details>
+<br>
 
 ## ✨ Day 12 & Day 13
 <details><summary><b>10.2 transformer chat</b></summary><br>
 실습 결과는 <a href = https://github.com/bbjoite09/NLP/blob/main/Practice/10.2%20transformer%20chat.ipynb">여기</a>에서 확인할 수 있다.<br><br>
 </details>
+<br>
   
 ## ✨ Day 14
 
