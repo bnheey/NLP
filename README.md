@@ -249,7 +249,7 @@ Day1에서 진행하였던 simple word project와 simple sentence project에 대
   실습에 대한 자세한 내용은 <a href = "https://github.com/bbjoite09/NLP/blob/main/Practice/10.1%20transformer%20tutorial.ipynb">여기</a>에서 확인할 수 있다.<br><br>
 </details>
 <details><summary><b>10.1 transformer nsmc gitconnection</b></summary><br>
-  ~~~
+  '''
   while True:
     string = input('감정분류 문장 > ')
     string = string.strip()
@@ -257,7 +257,7 @@ Day1에서 진행하였던 simple word project와 simple sentence project에 대
         break
     predict_str = do_chat(vocab, model, 50, 4, string)
     print(f'답변 > {predict_str}')
-  ~~~
+  '''
   실습 결과는 <a href = "https://github.com/bbjoite09/NLP/blob/main/Practice/10.1%20transformer%20nsmc%20gitconnection.ipynb">여기</a>에서 확인할 수 있다.<br><br>
 </details>
 <details><summary><b>10.2 transformer chat</b></summary><br>
