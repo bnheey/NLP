@@ -243,25 +243,51 @@ Day1에서 진행하였던 simple word project와 simple sentence project에 대
 <br>
 
 ## ✨ Day 11 & Day 12 & Day 13
-<details><summary><b>10.0 transformer tutorial</b></summary><br>
-  Day 10 부터 Day 13 까지는 Transformer에 대하여 학습한다.<br>
-  Transformer에 대한 기본적인 개념들에 대하여 실습을 진행해본다.<br><br>
-  실습에 대한 자세한 내용은 <a href = "https://github.com/bbjoite09/NLP/blob/main/Practice/10.1%20transformer%20tutorial.ipynb">여기</a>에서 확인할 수 있다.<br><br>
+<details><summary><b>10.1 transformer tutorial</b></summary><br>
+  Day 10 부터 Day 13 까지는 Transformer에 대하여 학습한다.<br><br>
+  
+  여기에서는 Transformer에 대한 기본적인 개념들에 대하여 실습을 진행한다. Transformer는 2017년 구글이 발표한 논문인 "Attention is all you need"에서 나온 모델을 말한다. 이는 앞서 학습한 Encoder-Decoder model을 따르면서 RNN이 없는 Attention으로만으로 구현되었다. 이는 Parallel corpus를 이용한 machine translation을 하며, NMT의 성능을 한 단계 끌어 올렸다.<br><br>
+  
+  해당 내용에 대한 자세한 사항은 <a href = "https://github.com/bbjoite09/NLP/blob/main/Practice/10.1%20transformer%20tutorial.ipynb">여기</a>에서 확인할 수 있다.<br><br>
 </details>
-<details><summary><b>10.1 transformer nsmc gitconnection</b></summary><br>
-  '''
-  while True:
-    string = input('감정분류 문장 > ')
-    string = string.strip()
-    if len(string) == 0:
-        break
-    predict_str = do_chat(vocab, model, 50, 4, string)
-    print(f'답변 > {predict_str}')
-  '''
-  실습 결과는 <a href = "https://github.com/bbjoite09/NLP/blob/main/Practice/10.1%20transformer%20nsmc%20gitconnection.ipynb">여기</a>에서 확인할 수 있다.<br><br>
+
+<details><summary><b>10.2 transformer chat</b></summary><br>
+ transformer을 이용하여 chatbot을 구현해 본다. 
+nslation의 성능이 좋아지며, 앞서 언급한 seq2seq의 두가지 문제점(Information bottleneck 문제, Vanishing gradient 문제)을 해결한다.<br><br>
+
+  Day8의 project에 attention 모델을 이용하여 성능을 향상시켜본다. 결과는 아래와 같다. <br><br>
+
+  <p align="center"><img src = "Data/images/attention.PNG" alt="attention result"></p>
+자세한 내용은 <a href = "https://github.com/bbjoite09/NLP/blob/main/Practice/9.1%20attention.ipynb">여기</a>에서 확인할 수 있다.<br><br>
+</details>
+
+<details><summary><b>📝 9.2 attention_homework</b></summary><br>
+  9.1을 학습시킨 후 결과를 확인해 본다.<br>
+  실습 결과는 <a href = "https://github.com/bbjoite09/NLP/blob/main/Practice/9.2%20attention%20hw.ipynb">여기</a>에서 확인할 수 있다.<br><br>
+</details>
+<br>
+
+## ✨ Day 11 & Day 12 & Day 13
+<details><summary><b>10.1 transformer tutorial</b></summary><br>
+  Day 10 부터 Day 13 까지는 Transformer에 대하여 학습한다.<br><br>
+
+  여기에서는 Transformer에 대한 기본적인 개념들에 대하여 실습을 진행한다. Transformer는 2017년 구글이 발표한 논문인 "Attention is all you need"에서 나온 모델을 말한다. 이는 앞서 학습한 Encoder-Decoder model을 따르면서 RNN이 없는 Attention으로만으로 구현되었다. 이는 Parallel corpus를 이용한 machine translation을 하며, NMT의 성능을 한 단계 끌어 올렸다.<br><br>
+
+  해당 내용에 대한 자세한 사항은 <a href = "https://github.com/bbjoite09/NLP/blob/main/Practice/10.1%20transformer%20tutorial.ipynb">여기</a>에서 확인할 수 있다.<br><br>
 </details>
 <details><summary><b>10.2 transformer chat</b></summary><br>
-실습 결과는 <a href = https://github.com/bbjoite09/NLP/blob/main/Practice/10.2%20transformer%20chat.ipynb">여기</a>에서 확인할 수 있다.<br><br>
+
+ transformer을 이용하여 chatbot을 구현해 본다. <br><br>
+ 
+자세한 내용은 <a href = "https://github.com/bbjoite09/NLP/blob/main/Practice/10.2%20transformer%20chat.ipynb">여기</a>에서 확인할 수 있다.<br><br>
+</details>
+
+<details><summary><b>10.3 transformer nsmc gitconnection</b></summary><br>
+  감정을 분류하는 실습에 대한 프로젝트를 진행해본다. '감정분류 문장 > '에 입력을 하면 '답변 >' 에 긍정 또는 부정으로 응답한다. 생성된 모델과, 출력 결과는 아래와 같다.<br>
+  <p align="center"><img src = "Data/images/transformer model.PNG" alt="transformer model"></p><br>
+  <p align="center"><img src = "Data/images/transformer.PNG" alt="transformer result"></p><br><br>
+  
+  자세한 내용은 <a href = "https://github.com/bbjoite09/NLP/blob/main/Practice/10.1%20transformer%20nsmc%20gitconnection.ipynb">여기</a>에서 확인할 수 있다.<br><br>
 </details>
 <br>
   
